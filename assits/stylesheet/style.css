@@ -7,7 +7,13 @@ body {
     background-color: lightgray;
 }
 
-
+.header {
+    margin: auto;
+    position: relative;
+    
+    width: 850px;
+    
+}
 #header-box {
     position: relative;
     border: 1px solid lightslategray;
@@ -34,9 +40,9 @@ body {
     width: 170px;
     height: 170px;
     top: -120px;
-    left: 350px;
+    left: 10px;
     z-index: 1;
-    
+
     
 }
 img {
@@ -48,19 +54,19 @@ img {
     font-weight: bold;
     font-size: 25px;
     top: -330px;
-    left: 530px;
+    left: 190px;
 }
 .profile-name .p2 {
     color: white;
     position: relative;
     font-size: 20px;
     top: -350px;
-    left: 530px;
+    left: 190px;
 }
 .botton {
     position: relative;
     top: -400px;
-    left: 900px;
+    left: 580px;
 
 }
 .botton .b1 {
@@ -74,14 +80,40 @@ img {
     height: 27px;
     float: left;
     top: -380px;
-    left: 500px;
+    left: 150px;
     z-index: 2;
     background-color: white;
     font-family: sans-serif;
     font-weight: bold;
 
 }
+
+.main-box {
+    position: relative;
     
+    width: 850px;
+    margin: auto;
+    top: -300px;
+}
+.main-box .leftbox1 {
+    position: relative;
+    border: 1px solid darkgrey;
+    width: 328px;
+    height: 150px;
+    background-color: white;
+    
+}
+.main-box .rightbox1 {
+    position: relative;
+    border: 1px solid darkgrey;
+    width: 512px;
+    height: 150px;
+    background-color: white;
+    float: right;
+    top: -150px;
+}
+
+
 
 
 
