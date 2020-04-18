@@ -54,8 +54,12 @@ main {
 
     
 }
-img {
-    width: 168px;
+#image {
+    width: 169px;
+    height: 169px;
+    
+    
+    
 }
 .profile-name .p1 {
     color: white;
