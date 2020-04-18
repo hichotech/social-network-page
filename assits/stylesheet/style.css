@@ -7,12 +7,17 @@ body {
     background-color: rgba(211, 211, 211, 0.438);
 }
 
-.header {
+header {
     margin: auto;
     position: relative;
     width: 850px;
     
 }
+main {
+    margin: auto;
+    width: 850px;
+}
+
 #header-box {
     position: relative;
     border: 1px solid lightslategray;
@@ -114,8 +119,9 @@ img {
     text-decoration: none;
 }
  
+/* end header style */
 
-
+/*(main)top left contaner */
 .main-box {
     position: relative;
     
@@ -131,18 +137,10 @@ img {
     background-color: white;
     
 }
-.main-box .rightbox1 {
-    position: relative;
-    border: 1px solid darkgrey;
-    width: 512px;
-    height: 340px;
-    background-color: white;
-    float: right;
-    top: -200px;
-}
+
 .leftbox1 .empty {
     position: relative;
-    border: 0.5px solid rgba(119, 136, 153, 0.26);
+    border-bottom: 1px solid rgba(119, 136, 153, 0.26);
     height: 25px;
     
     
@@ -161,7 +159,7 @@ img {
 }
 .leftbox1 .website {
     position: relative;
-    border: 0.5px solid rgba(119, 136, 153, 0.26);
+    border-top: 1px solid rgba(119, 136, 153, 0.26);
     height: 35px;
     top: -28px;
 }
@@ -172,6 +170,19 @@ img {
     text-decoration: none;
 
 }
+/*end top left container */
+
+/*right box container */
+.main-box .rightbox1 {
+    position: relative;
+    border: 1px solid darkgrey;
+    width: 512px;
+    height: 340px;
+    background-color: white;
+    float: right;
+    top: -200px;
+}
+
 .small-profile-pic img {
     position: relative;
     border: 1px solid darkgrey;
@@ -192,7 +203,7 @@ img {
 } 
 .right-box-page-name a {
     text-decoration: none;
-    color: rgb(112, 112, 212););
+    color: rgb(112, 112, 212);
 }
 .right-box-head-text {
     position: relative;
@@ -239,7 +250,9 @@ img {
 
 }
 
+/*end top right container */
 
+/*secont left container*/
 
 .leftbox2 {
     position: relative;
@@ -295,13 +308,17 @@ img {
     position: relative;
     left: 35px;
     font-family: sans-serif;
+    font-weight: bold;
+    
 }
 .content  .p1 {
     color:rgb(75, 72, 72);
+    
 }
 .content .p2 {
     
     color: darkgray;
+    
     
 }
 .bottom-phone .phone-icon {
@@ -318,3 +335,4 @@ img {
 }
 
 
+/*end secont left container */
