@@ -44,7 +44,8 @@ body {
     height: 170px;
     top: -120px;
     left: 10px;
-    z-index: 1;
+    z-index: 2;
+
 
     
 }
@@ -73,29 +74,47 @@ img {
     top: -400px;
     left: 580px;
     
+    
 
 }
 .botton .b1 {
     font-weight: bolder;
     height: 26px;
     background-color: white;
-    
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(145, 153, 224);
+   
+}
+.b1:hover {
+    background-color: rgb(145, 153, 224);
+  color: white;
+
 }
 
-.home-list li{
+
+.home-table th {
+   
+    border-left: 1px solid lightgray;
     position: relative;
     list-style: none;
-    width: 80px;
+    width: 100px;
     height: 27px;
     float: left;
-    top: -380px;
-    left: 150px;
-    z-index: 2;
+    top: -365px;
+    left: 177px;
     background-color: white;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 18px;
+    
 
 }
+.home-table th a {
+    text-decoration: none;
+}
+ 
+
 
 .main-box {
     position: relative;
