@@ -10,7 +10,6 @@ body {
 .header {
     margin: auto;
     position: relative;
-    
     width: 850px;
     
 }
@@ -21,7 +20,11 @@ body {
     height: 300px;
     margin: auto;
     
-    background-color: rgb(102, 102, 204);
+    
+}
+.cover-img {
+    width: 850px;
+    height: 300px;
 }
 
 .nav-box {
@@ -56,22 +59,27 @@ img {
     top: -330px;
     left: 190px;
 }
-.profile-name .p2 {
-    color: white;
+.profile-name .p2 a{
+    text-decoration: none;
+    color:white;
     position: relative;
     font-size: 20px;
     top: -350px;
     left: 190px;
 }
+
 .botton {
     position: relative;
     top: -400px;
     left: 580px;
+    
 
 }
 .botton .b1 {
     font-weight: bolder;
     height: 26px;
+    background-color: white;
+    
 }
 .home-list li{
     position: relative;
@@ -99,7 +107,7 @@ img {
     position: relative;
     border: 1px solid darkgrey;
     width: 328px;
-    height: 150px;
+    height: 200px;
     background-color: white;
     
 }
@@ -107,11 +115,46 @@ img {
     position: relative;
     border: 1px solid darkgrey;
     width: 512px;
-    height: 150px;
+    height: 350px;
     background-color: white;
     float: right;
-    top: -150px;
+    top: -200px;
 }
+.leftbox1 .empty {
+    position: relative;
+    border: 0.5px solid rgba(119, 136, 153, 0.26);
+    height: 25px;
+    
+    
+}
+.text1 h3 {
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+.text1 p {
+    position: relative;
+    top: -29px;
+    left: 10px;
+    color: rgb(112, 112, 212);
+   
+}
+.leftbox1 .website {
+    position: relative;
+    border: 0.5px solid rgba(119, 136, 153, 0.26);
+    height: 35px;
+    top: -28px;
+}
+.website h4 a {
+    position: relative;
+    top: -15px;
+    left: 10px;
+    text-decoration: none;
+
+}
+
+
+
 
 
 
