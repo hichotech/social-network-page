@@ -239,13 +239,82 @@ img {
 
 }
 
-.right-box-bottom li:not(:last-of-type):after{
-    content: "";
-  }
 
 
+.leftbox2 {
+    position: relative;
+    border: 1px solid rgba(119, 136, 153, 0.26);
+    width: 328px;
+    height: 190px;
+    top: 15px;
+    background-color: white;
 
-
-
+}
+.leftbox2 .top1 {
+    position: relative;
+    border: 1px solid rgba(119, 136, 153, 0.26);
+    top: -1px;
+    height: 45px;
+    background-color: rgba(211, 211, 211, 0.247);
+    
+}
+.leftbox2 .bottom-phone {
+    position: relative;
+    border-top: 1px solid rgba(119, 136, 153, 0.26);
+    top: 10px;
+    width: 290px;
+    left: 17px;
+}
+.top1 .content {
+    position: relative;
+    font-weight: bold;
+    color: gray ;
+    font-size: 14px;
+    top: 11px;
+    left: 10px;
+    font-family: sans-serif;
+}
+.top1 .arow {
+    position: relative;
+    float: right;
+    font-size: 28px;
+    color: gray;
+    font-weight: bold;
+    top: -11px;
+    left: -10px;
+}
+.text2 .location-icon {
+    position: relative;
+    font-size: 35px;
+    transform: rotate(180deg);
+    float: left;
+    color: gray;
+    left: 20px;
+}
+.text2 .content p {
+    position: relative;
+    left: 35px;
+    font-family: sans-serif;
+}
+.content  .p1 {
+    color:rgb(75, 72, 72);
+}
+.content .p2 {
+    
+    color: darkgray;
+    
+}
+.bottom-phone .phone-icon {
+    color: darkgray;
+    font-size:30px ;
+}
+.bottom-phone .phone-num {
+    position: relative;
+    left: 54px;
+    top: -25px;
+    font-family: sans-serif;
+    color: rgb(112, 112, 212);
+    font-weight: bold;
+}
 
 
