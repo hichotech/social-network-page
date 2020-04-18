@@ -204,6 +204,7 @@ img {
 .right-box-page-name a {
     text-decoration: none;
     color: rgb(112, 112, 212);
+    font-weight: bolder;
 }
 .right-box-head-text {
     position: relative;
@@ -336,3 +337,74 @@ img {
 
 
 /*end secont left container */
+/* add two column */
+.row {
+    position: relative;
+    top: -120px;
+}
+.row .column1 {
+    border: 1px solid rgb(169, 169, 169, 0.664);
+    float: right;
+    width: 512px;
+    background-color:white;
+    height: 250px
+    
+
+  }
+.row .column2 {
+    border: 1px solid rgba(169, 169, 169, 0.664);
+    float: left;
+    width: 328px;
+    background-color:white;
+    height: 300px
+  }
+/* right column */ 
+.right-column {
+    position: relative;
+    top: -50px;
+    left: 100px;
+
+}
+.right-column a {
+    color: rgb(112, 112, 212);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.right-column p {
+    position: relative;
+    color: lightslategray;
+    font-weight: bold;
+    top: -10px;
+    
+}
+.column-box {
+    position: relative;
+    border-top: 2px solid rgba(177, 173, 173, 0.274);
+    top: 20px;
+    left: -100px;
+    
+}
+.column-box li {
+    position: relative;
+    list-style: none;
+    float: left;
+    right: 21px;
+    color:rgb(112, 112, 212) ;
+    
+}
+.column-text2 p {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    left: -90px;
+    font-size: 15px;
+    width: 490px;
+    color: black;
+
+}
+/*left column /*
+
+
+  
