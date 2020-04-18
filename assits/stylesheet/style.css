@@ -4,7 +4,7 @@
 
 }
 body {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.438);
 }
 
 .header {
@@ -81,6 +81,7 @@ img {
     background-color: white;
     
 }
+
 .home-list li{
     position: relative;
     list-style: none;
@@ -115,7 +116,7 @@ img {
     position: relative;
     border: 1px solid darkgrey;
     width: 512px;
-    height: 350px;
+    height: 340px;
     background-color: white;
     float: right;
     top: -200px;
@@ -152,7 +153,76 @@ img {
     text-decoration: none;
 
 }
+.small-profile-pic img {
+    position: relative;
+    border: 1px solid darkgrey;
+    width: 70px;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
 
+}
+.right-box-page-name {
+    position: relative;
+    top: -40px;
+    left: 93px;
+    font-weight: bold;
+    color: darkslateblue;
+    
+
+} 
+.right-box-page-name a {
+    text-decoration: none;
+    color: rgb(112, 112, 212););
+}
+.right-box-head-text {
+    position: relative;
+    top: -73px;
+    left: 198px;
+    text-decoration: none;
+    
+
+}
+.right-box-head-text a {
+    text-decoration: none;
+    color: rgb(112, 112, 212);
+}
+.right-box-head-text p {
+    color: gray;
+}
+.box-right-text2 {
+    position: relative;
+    left: -105px;
+    top: -10px;
+}
+.right-box-middle img {
+    width: 500px;
+    position: relative;
+    top: -100px;
+    
+
+}
+.right-box-bottom {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    height: 40px;
+    background-color:rgba(211, 211, 211, 0.137);
+    top: -103px;
+}
+.right-box-bottom li {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 7px;
+    top: -13px;
+    left: -38px;
+    color:rgb(112, 112, 212);
+
+}
+
+.right-box-bottom li:not(:last-of-type):after{
+    content: "";
+  }
 
 
 
